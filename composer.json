@@ -10,7 +10,8 @@
         "johnpbloch/wordpress": "^7.1",
         "wpackagist-plugin/wp-graphql": "^2.23",
         "johnbillion/query-monitor": "^4.0",
-        "wp-theme/twentytwentyfive": "^1.5"
+        "wp-theme/twentytwentyfive": "^1.5",
+        "wpackagist-plugin/redis-cache": "^3.0"
     },
      "repositories": [
         {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9da58b285f7b2f206c259e447d263f8c",
+    "content-hash": "41ee9221bbd329a14bead568a868ad3d",
     "packages": [
         {
             "name": "composer/installers",
@@ -395,6 +395,24 @@
                 "source": "https://themes.svn.wordpress.org/twentytwentyfive"
             },
             "time": "2026-05-20T21:56:34+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/redis-cache",
+            "version": "3.0.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redis-cache/",
+                "reference": "tags/3.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.3.0.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redis-cache/"
         },
         {
             "name": "wpackagist-plugin/wp-graphql",
